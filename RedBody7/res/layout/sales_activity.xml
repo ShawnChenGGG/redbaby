@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+    
+        
+     <zz.itcast.redbody7.view.TittleBarView
+        android:id="@+id/sales_tbv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </zz.itcast.redbody7.view.TittleBarView>
+        
+    <zz.itcast.redbody7.view.LoadAnimationView
+        android:id="@+id/sales_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        />
+    
+   <ListView 
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/sales_listview"
+       android:visibility="gone"
+       ></ListView>
+    
+    
+
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 商品列表界面 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <zz.itcast.redbody7.view.TittleBarView
+        android:id="@+id/tb_pager_commodity_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/ll_pager_commodity_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/tv_xiaoliang_sort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/segment_selected_1_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:text="销量" />
+
+        <TextView
+            android:id="@+id/tv_price_sort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/segment_normal_2_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:text="价格" />
+
+        <TextView
+            android:id="@+id/tv_goods_sort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/segment_normal_2_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:text="好评度" />
+
+        <TextView
+            android:id="@+id/tv_time_sort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/segment_normal_3_bg"
+            android:button="@null"
+            android:gravity="center"
+            android:text="上架时间" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/segment_bg" />
+
+    <zz.itcast.redbody7.view.MyListView
+        android:id="@+id/lv_pager_commodity_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </zz.itcast.redbody7.view.MyListView>
+
+    <ListView
+        android:id="@+id/lv_browse"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" >
+    </ListView>
+
+    <!-- 当浏览记录为空的时候,该空间显示 -->
+
+    <LinearLayout
+        android:id="@+id/ll_browse"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:visibility="gone" >
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ali_014"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="没有记录哦,可以去商城逛逛哦"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_go_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/image_selector2"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="GO-GO-let&apos;s Go!"
+            android:textColor="@drawable/text_selector"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

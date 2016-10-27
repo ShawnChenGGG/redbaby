@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="2dp" >
+
+        <ImageView
+            android:id="@+id/iv_img"
+            android:layout_width="68dp"
+            android:layout_height="84dp"
+            android:background="@drawable/product_loading" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="伊利QQ星"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="原价："
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="66.66"
+                android:textSize="11dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="价格："
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/tv_price_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="66.66"
+                android:textColor="#FF0000"
+                android:textSize="11dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

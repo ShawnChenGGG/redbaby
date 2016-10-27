@@ -1,0 +1,142 @@
+﻿{
+    "data": [
+        {
+            "childs ": [
+                {
+                    "link ": "/productlist?page=1&pagenum=10&cid=1",
+                    "name ": "雅培"
+                },
+                {
+                    "link ": "/productlist?page=1&pagenum=10&cid=1",
+                    "name ": "雅士利"
+                },
+                {
+                    "link ": "/productlist?page=1&pagenum=10&cid=1",
+                    "name ": "贝英美"
+                },
+                {
+                    "link ": "/productlist?page=1&pagenum=10&cid=1",
+                    "name ": "海王"
+                },
+                {
+                    "link ": "/productlist?page=1&pagenum=10&cid=1",
+                    "name ": "美素"
+                },
+                {
+                    "link ": "/productlist?page=1&pagenum=10&cid=1",
+                    "name ": "三鹿"
+                },
+                {
+                    "link ": "/productlist?page=1&pagenum=10&cid=1",
+                    "name ": "蒙牛"
+                }
+            ],
+            "id": 0,
+            "names": "品牌"
+        },
+        {
+            "childs ": [
+                {
+                    "link ": "/productlist?page=1&pagenum=10&cid=1",
+                    "price ": 100
+                },
+                {
+                    "link ": "/productlist?page=1&pagenum=10&cid=1",
+                    "price ": 200
+                },
+                {
+                    "link ": "/productlist?page=1&pagenum=10&cid=1",
+                    "price ": 500
+                },
+                {
+                    "link ": "/productlist?page=1&pagenum=10&cid=1",
+                    "price ": 1000
+                },
+                {
+                    "link ": "/productlist?page=1&pagenum=10&cid=1",
+                    "price ": 2000
+                },
+                {
+                    "link ": "/productlist?page=1&pagenum=10&cid=1",
+                    "price ": 3000
+                },
+                {
+                    "link ": "/productlist?page=1&pagenum=10&cid=1",
+                    "price ": 5000
+                }
+            ],
+            "id": 1,
+            "names": "价格"
+        },
+        {
+            "childs ": [
+                {
+                    "link ": "/productlist?page=1&pagenum=10&cid=1",
+                    "name ": "伟哥"
+                },
+                {
+                    "link ": "/productlist?page=1&pagenum=10&cid=1",
+                    "name ": "血滴子"
+                },
+                {
+                    "link ": "/productlist?page=1&pagenum=10&cid=1",
+                    "name ": " 振动器"
+                },
+                {
+                    "link ": "/productlist?page=1&pagenum=10&cid=1",
+                    "name ": "隐形衣"
+                },
+                {
+                    "link ": "/productlist?page=1&pagenum=10&cid=1",
+                    "name ": "迷药水"
+                },
+                {
+                    "link ": "/productlist?page=1&pagenum=10&cid=1",
+                    "name ": "透视眼镜"
+                },
+                {
+                    "link ": "/productlist?page=1&pagenum=10&cid=1",
+                    "name ": "三鹿奶粉"
+                }
+            ],
+            "id": 2,
+            "names": "功能"
+        },
+        {
+            "childs ": [
+                {
+                    "count ": 100,
+                    "link ": "productlist?page=1&pagenum=10&cid=1"
+                },
+                {
+                    "count ": 200,
+                    "link ": "productlist?page=1&pagenum=10&cid=1"
+                },
+                {
+                    "count ": 300,
+                    "link ": "productlist?page=1&pagenum=10&cid=1"
+                },
+                {
+                    "count ": 500,
+                    "link ": "productlist?page=1&pagenum=10&cid=1"
+                },
+                {
+                    "count ": 1000,
+                    "link ": "productlist?page=1&pagenum=10&cid=1"
+                },
+                {
+                    "count ": 2000,
+                    "link ": "productlist?page=1&pagenum=10&cid=1"
+                },
+                {
+                    "count ": 5000,
+                    "link ": "productlist?page=1&pagenum=10&cid=1"
+                }
+            ],
+            "id": 3,
+            "names": "库存"
+        }
+    ],
+    "list_count": 1500,
+    "response": "sort"
+}  

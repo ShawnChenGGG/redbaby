@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <zz.itcast.redbody7.view.TittleBarView
+        android:id="@+id/big_picture_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </zz.itcast.redbody7.view.TittleBarView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_weight="1"
+        android:background="#F0F0F0"
+        android:orientation="vertical"
+        android:padding="1dp" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/big_picture_vp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="培新全新精装小安泰900g（1-7岁）"
+            android:textColor="#000" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/xian_jia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="￥230.00"
+                android:textColor="#f00" />
+
+            <TextView
+                android:id="@+id/yuan_jia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/xian_jia"
+                android:text="￥260.00" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:background="#f0f0f0"
+        android:gravity="center"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:id="@+id/big_gray_point_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <View
+            android:id="@+id/big_red_point"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:background="@drawable/red_point" />
+    </RelativeLayout>
+
+</LinearLayout>

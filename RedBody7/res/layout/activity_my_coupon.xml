@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <zz.itcast.redbody7.view.TittleBarView
+        android:id="@+id/coupon_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </zz.itcast.redbody7.view.TittleBarView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:text="已有优惠券:"
+        android:textColor="#000"
+        android:textSize="17sp" />
+
+    <ListView
+        android:id="@+id/coupon_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/image_padding_selector"
+        android:padding="10dp" >
+    </ListView>
+
+</LinearLayout>

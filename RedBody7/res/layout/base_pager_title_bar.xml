@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/head_bg" >
+
+    <!--
+    左边的按钮，文字和背景可以按照自己需要修改，若需要三角的后退背景，则可设置背景选择器为head_bace_selector.xml
+    使用可以用include标签引用
+    -->
+
+    <Button
+        android:id="@+id/btn_base_pager_title_bar_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/head_button_selector"
+        android:padding="8dp"
+        android:text="左边测试"
+        android:textColor="#ffffff"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tv_base_pager_title_bar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="中间测试"
+        android:textColor="#ffffff"
+        android:textSize="23sp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/btn_base_pager_title_bar_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/head_button_selector"
+        android:padding="8dp"
+        android:text="右边测试"
+        android:textColor="#ffffff"
+        android:textSize="17sp" />
+
+</RelativeLayout>

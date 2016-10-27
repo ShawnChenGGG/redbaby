@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <zz.itcast.redbody7.view.TittleBarView
+        android:id="@+id/product_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </zz.itcast.redbody7.view.TittleBarView>
+    
+     <zz.itcast.redbody7.view.LoadAnimationView
+        android:id="@+id/product_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        />
+
+    <GridView
+        android:id="@+id/product_gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:numColumns="3"
+        android:visibility="gone"
+        android:verticalSpacing="20dp" >
+    </GridView>
+
+</LinearLayout>

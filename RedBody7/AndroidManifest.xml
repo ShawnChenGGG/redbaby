@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="zz.itcast.redbody7"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- 二维码 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:targetPackage="zz.itcast.redbody7" >
+    </instrumentation>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/redchild"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <uses-library android:name="android.test.runner" />
+
+        <activity
+            android:name="zz.itcast.redbody7.activity.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.FeedbackActivity" >
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.AboutActivity" >
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.AddressManageActivity" >
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.NewAdrressActivity" >
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.SnatchActivity" >
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.SalesActivity" >
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.ProductActivity" >
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.HotActivity" >
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.RecommendActivity" >
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.CheckOutActivity" >
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.AddressListActivity" >
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.MyOrderActivity" >
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.LoginActivity" >
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.RegistActivity" >
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.OrderDetailsActivity" >
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.ExpressQueryActivity" >
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.GuideActivity" >
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.UserCenterActivity" >
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.SplashActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.DeliveryTimeActivity" >
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.PaymentTypeActivity" >
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.IncoiceTypeActivity" >
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.UpdateAddressActivity" >
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.ProductDetailActivity" >
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.CaptureActivity" >
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.ResultActivity" >
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.SearchResultActivity1" >
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.SearchResultActivity2" >
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.FavoriteActivity" >
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.HelpContentActivity" >
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.HelpActivity" >
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.MyCouponActivity" >
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.BigPictureActivity" >
+        </activity>
+
+     	<activity android:name="zz.itcast.redbody7.activity.ActivityProductContent"></activity>
+    	<activity android:name="zz.itcast.redbody7.activity.ActivityBrowseData"></activity>
+
+        <activity android:name="zz.itcast.redbody7.activity.Login2Activity" >
+        </activity>
+        <activity android:name="zz.itcast.redbody7.activity.ActivityComment"></activity>
+
+    </application>
+
+</manifest>

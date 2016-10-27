@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- oneshot="true" 代表动画执行一次 -->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:oneshot="false">
+    
+    <item android:drawable="@drawable/c1" android:duration="200" />
+    <item android:drawable="@drawable/c2" android:duration="200" />
+    <item android:drawable="@drawable/c3" android:duration="200" />
+    
+
+</animation-list>

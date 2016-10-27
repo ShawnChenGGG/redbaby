@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/rl_my_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/text_content_shap"
+        android:orientation="vertical"
+        android:padding="12dp" >
+
+        <TextView
+            android:id="@+id/tv_order_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单编号:"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_order_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tv_order_number"
+            android:paddingBottom="5dp"
+            android:text="11111111111111111"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_order_rental"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_order_number"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="订单总额:"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_order_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_order_number"
+            android:layout_toRightOf="@id/tv_order_rental"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="$194.00"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_order_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_order_number"
+            android:layout_toRightOf="@id/tv_order_number"
+            android:paddingBottom="5dp"
+            android:paddingLeft="100dp"
+            android:paddingTop="5dp"
+            android:text="状态:"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_order_number"
+            android:layout_toRightOf="@id/tv_order_state"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="未确认"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_order_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_order_rental"
+            android:text="2016/4/23  13:10:06"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/iv_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/arrow" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- oneshot="true" 代表动画执行一次 -->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true" >
+
+    <item
+        android:drawable="@drawable/text1"
+        android:duration="10"/>
+    <item
+        android:drawable="@drawable/text2"
+        android:duration="10"/>
+    <item
+        android:drawable="@drawable/text3"
+        android:duration="10"/>
+    <item
+        android:drawable="@drawable/text4"
+        android:duration="10"/>
+    <item
+        android:drawable="@drawable/text5"
+        android:duration="10"/>
+    <item
+        android:drawable="@drawable/text6"
+        android:duration="10"/>
+    <item
+        android:drawable="@drawable/text7"
+        android:duration="10"/>
+    <item
+        android:drawable="@drawable/text8"
+        android:duration="10"/>
+    <item
+        android:drawable="@drawable/text9"
+        android:duration="10"/>
+    <item
+        android:drawable="@drawable/text10"
+        android:duration="10"/>
+    <item
+        android:drawable="@drawable/text11"
+        android:duration="10"/>
+
+</animation-list>

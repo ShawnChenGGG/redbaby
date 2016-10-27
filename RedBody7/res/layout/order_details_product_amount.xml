@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@drawable/product_detail_gallery"
+    android:padding="10dp"
+    >
+   	
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        >
+        <TextView
+            android:id="@+id/tv_product_amount" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="数量总计:"
+            android:textSize="13sp"
+            />
+        <TextView 
+            android:id="@+id/tv_amount"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1件"
+            android:textSize="13sp"
+            />
+        
+    </RelativeLayout>
+    <RelativeLayout 
+        android:layout_width="match_parent"
+         android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        >
+        <TextView
+            android:id="@+id/tv_product_money" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="原始金额:"
+            android:textSize="13sp"
+            />
+        <TextView 
+            android:id="@+id/tv_money"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$128.00"
+            android:textSize="13sp"
+            />
+        
+    </RelativeLayout>
+    <RelativeLayout 
+        android:layout_width="match_parent"
+         android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        >
+        <TextView
+            android:id="@+id/tv_product_carriage" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="运费:"
+            android:textSize="13sp"
+            />
+        <TextView 
+            android:id="@+id/tv_carriage"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$10.00"
+            android:textSize="13sp"
+            />
+        
+    </RelativeLayout>
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        >
+        <TextView
+            android:id="@+id/tv_product_privilege" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="促销优惠金额:"
+            android:textSize="13sp"
+            />
+        <TextView 
+            android:id="@+id/tv_privilege"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-$30.00"
+            android:textSize="13sp"
+            />
+        
+    </RelativeLayout>
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        >
+        <TextView
+            android:id="@+id/tv_product_pay" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="应支付金额:"
+            android:textSize="13sp"
+            />
+        <TextView
+            android:id="@+id/tv_no_pay" 
+            android:layout_toRightOf="@id/tv_product_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(不含运费)"
+            android:textSize="13sp"
+            />
+        <TextView 
+            android:id="@+id/tv_pay"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$108.00"
+            android:textSize="13sp"
+            />
+        
+    </RelativeLayout>
+     
+        
+   
+    
+
+</LinearLayout>
